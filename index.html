@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Survey Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>A Survey Form</h1>
+    <!--Create Form-->
+    <form action="" id="form">
+      <!--Details-->
+      <div class="form-control">
+        <label for="name" class="label-name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+      </div> 
+      
+      <div class="form-control">
+        <label for="email" id="label-email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+      </div>
+
+      <div class="form-control">
+        <label for="age" id="label-age">Age</label>
+        <input type="text" id="age" placeholder="Enter your age">
+      </div>
+
+      <div class="form-control">
+        <label for="role" id="label-role">Which option best describes you?</label>
+
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">intern</option>
+                <option value="Professional">Professional</option>
+                <option value="others">Others</option>
+
+            </select>
+      </div>
+    </form>
     
 </body>
 </html>
