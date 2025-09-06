@@ -2,7 +2,13 @@
 body{
     background-color: #05c46b;
     font-family: verdana;
+    text-align: ;
+}
+.heading{
     text-align: center;
+    background-color: ;
+    font-size: 50px;
+    border: 1px solid #777;
 }
 /* Styling the Form */
 form{
@@ -15,13 +21,14 @@ form{
 
 /* Styling .form-control */
 .form-control{
-    text-align: center;
+    text-align: ;
     margin-bottom: 25px;
 }
 /* Styling .form-control label */
 .form-control label{
     display: block;
     margin-bottom: 10px;
+    margin-left: ;
 }
 
 /* Styling .form-control input, select, textarea */
@@ -39,5 +46,26 @@ form{
 /* Styling Radio button and Checkbox */
 .form-control input[type="radio"],
 .form-control input[type="checkbox"] {
-    display:inline-block ;
+    display: inline-block;
+    width: auto;
+}
+
+/* Styling Button */
+button{
+    background-color: #05c46b;
+    border: 1px solid #777;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+button:hover{
+    background-color: #777;
+    color: #fff;
+    font-size: 25px;
 }
